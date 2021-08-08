@@ -1,0 +1,224 @@
+.wrapper{
+    margin: 2px;
+    max-width: 1170px;
+}
+body{
+    background: url(./assets/sky.jpg) no-repeat;
+    background-size: cover;
+}
+
+/* NavBar */
+#menu{
+    float: right;
+    padding: 0.35em;
+    background-color: lightgray;
+    height: 1.5em;
+    display: flex;
+    margin: -2.5em 0 0 0;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0;
+}
+
+.social{
+    width: 20px;
+    height: 20px;
+    border-radius: 80%;
+    padding: 0px;
+    margin: 5px;
+    position: relative;
+    right: 10%;
+    border: solid black 1px;
+}
+
+.navInfo{
+    margin: 0.2em;
+    position: relative;
+    font-size: large;
+    color: green;
+}
+/* Header */
+header{
+    background: url(./assets/realBackground.jpg) no-repeat ;
+    background-size: cover;
+    padding: 2.5em 0 0.5em 0em;
+    margin: 0 0 2.0em;
+}
+
+header h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
+    font-size: 7.5em;
+    margin: 0;
+    text-align: center;
+}
+
+header h6{
+    font-size: 2.0em;
+    margin: 0.01em;
+    padding-left: 1.0em;
+    margin-bottom: 0.5em;
+    color: rgb(78, 194, 87);
+    text-align: center;
+}
+
+#headerPara{
+    text-align: center;
+    font-size: 1em;
+    color: green;
+}
+.treeNav{
+    font-size: 2em;
+    padding-left: 3em;
+    padding-top: 1.2em;
+    color: rgb(31, 143, 31);
+
+}
+
+#headerOptions{
+    margin-left: 3em;
+}
+
+/* Info Panal */
+#infoSec{
+    padding: 1em;
+}
+
+section#infoSec p{
+    color: black;
+    width: 50%;
+    margin: 2em;
+    font-family: sans-serif;
+}
+
+#flexHistory{
+    display: flex;
+    margin-bottom: -2em;
+}
+
+#treePic{
+    margin-right: 2em;
+    width: 50%;
+    height: 18em;
+    position: relative;
+    left: 100px;
+    border-radius: 10%;
+}
+section#infoSec h2{
+    font-size: 3em;
+    margin-left: 2em;
+    margin-bottom: -0.25em;
+}
+#resource{
+    padding-left: 0.5em;
+    color: blue;
+    padding-bottom: 2em;
+}
+
+section#infoSec h2{
+    font-family: sans-serif;
+    color: green;
+}
+/* Products */
+
+section#products{
+    margin: 0em 5em 2em 2em;
+}
+
+section#products h2{
+    font-size: 2em;
+    text-align: center;
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#paraProd{
+    font-size: 1.23em;
+    text-align: center;
+    color: brown;
+}
+
+#productsDiv{
+    display: inline-flex;
+}
+
+.treeProducts{
+    width: 18em;
+    padding: 0em;
+    margin: 0.5em;
+    background-color: white;
+    border-radius: 10%;
+}
+
+div.treeProducts h2{
+    color: green;
+}
+
+.infoUnder{
+    color: brown;
+    font-family: sans-serif;
+    padding: 0.5em;
+}
+
+.productPics{
+    width: 17em;
+    height: 12em;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 15% ;
+}
+
+/* form */
+section#form{
+    margin: 1em;
+}
+#formP{
+    color: rgb(177,184,13);
+    font-size: 2em;
+    margin: 0.5em;
+    text-align: center;
+}
+
+.info{
+    margin: 0em;
+    padding: 0.4em;
+    text-align: center;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(175, 81, 81);
+    height: 4em;
+    font-size: 1.0em;
+    color: black;
+    text-align: center;
+    padding: 0;
+}
+
+#menuFooter{
+    display: inline-block;
+    list-style: none;
+    margin-left: 1em;
+}
+footer ul{
+    padding: 0;
+}
+footer ul li{
+    display: inline-block;
+    padding: 0em;
+    margin: 0 0 1.5em 0; 
+    color: black;
+}
+.footerInfo{
+    color: black;
+    padding: 1em;
+}
